@@ -1,0 +1,11 @@
+[package]
+name = "livebucket_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+livebucket = {git = "https://git@github.com/jegkanikkeheddemike/livebucket"}
+floem = {git = "https://github.com/lapce/floem"}
+floem_livebucket_integration ={ git = "https://git@github.com/jegkanikkeheddemike/floem_livebucket_integration" }
+serde = "*"
+serde_json = "*"
